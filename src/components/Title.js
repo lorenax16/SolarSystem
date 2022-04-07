@@ -1,4 +1,6 @@
 import React from 'react';
+import propTypes from 'prop-types';
+
 
 class Title extends React.Component {
   render() {
