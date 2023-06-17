@@ -9,7 +9,18 @@ class MissionCard extends React.Component {
       country,
       destination } = this.props;
     return (
-      <div data-testid="mission-card">
+      <div
+        style={ {
+          color: 'white',
+          position: 'relative',
+          width: '300px',
+          padding: '3rem 0 2rem',
+          margin: '20px',
+          border: '1px solid white',
+          alignItems: 'center',
+        } }
+        data-testid="mission-card"
+      >
         <p data-testid="mission-name">{name}</p>
         <p data-testid="mission-year">{year}</p>
         <p data-testid="mission-country">{country}</p>

@@ -1,10 +1,19 @@
 import React from 'react';
 import propTypes from 'prop-types';
+// import styled from 'styled-components';
 
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
-    return <h2>{headline}</h2>;
+    return (
+      <div
+        style={ {
+          color: 'white',
+        } }
+      >
+        <h2>{headline}</h2>
+      </div>
+    );
   }
 }
 
